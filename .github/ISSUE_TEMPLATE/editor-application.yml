@@ -1,0 +1,27 @@
+name: VFX editor application
+description: Show your work and help shape Shadows AI.
+title: "[Editor application]: "
+body:
+  - type: markdown
+    attributes:
+      value: "This application is public. Share only public portfolio links and information you are comfortable posting."
+  - type: textarea
+    id: intro
+    attributes:
+      label: Introduce yourself
+      description: Tell us about your VFX experience and creative style.
+    validations:
+      required: true
+  - type: textarea
+    id: portfolio
+    attributes:
+      label: Examples of your work
+      description: Link to a few public videos, effects, or portfolio pieces.
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: How would you like to contribute?
+    validations:
+      required: true
