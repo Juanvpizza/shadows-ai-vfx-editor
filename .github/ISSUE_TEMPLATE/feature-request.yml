@@ -1,0 +1,16 @@
+name: Creative idea
+description: Suggest an effect or workflow for the upcoming editor.
+title: "[Idea]: "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to create?
+      description: Describe the effect or workflow and why it matters to you.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Optional public examples or inspiration links.
